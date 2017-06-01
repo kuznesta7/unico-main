@@ -46,7 +46,7 @@ h3 {
 .parallax h4,
 .parallax h5,
 .parallax h6 {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .parallax input[type="text"],
@@ -159,7 +159,7 @@ section {
 
 #home-slider .caption h1 {
   color: #fff;
-  font-family: BeonMedium;
+  font-family: "Open Sans";
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -195,7 +195,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  background: rgba(28, 28, 28, 0.25);
 }
 
 .carousel-fade .carousel-inner .active {
@@ -288,9 +288,12 @@ section {
 
 }
 
+
 /*************************
 ********Service CSS*******
 **************************/
+
+
 
 .service-icon {
   border-radius: 4px;
@@ -895,7 +898,7 @@ section {
 }
 
 #contact-us {
-  background-image:url(../images/contact-bg.jpg);
+  background-image:url(../images/contact/contact-sluchatko.png);
   padding-bottom: 90px; 
 }
 
@@ -905,7 +908,7 @@ section {
 
 .form-control {
   background-color: transparent;
-  border-color: rgba(255,255,255,.1);
+ /* border-color: rgba(255,255,255,.1);*/
   height: 50px;
   border-radius: 0;
   box-shadow: none;
@@ -937,7 +940,7 @@ ul.address {
 }
 
 .contact-info ul li a {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .btn-submit {

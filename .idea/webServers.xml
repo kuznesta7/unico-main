@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8888d765-6c77-4144-8a5e-5d49a13fcf7a" name="Forpsi" url="http://ftpx.forpsi.com">
+        <fileTransfer host="ftpx.forpsi.com" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1ebda08d-b70b-47f0-b98b-e0e1a704eab9" name="WebBrowser" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Users\Kuznik\WebstormProjects\unico-main" accessType="MOUNT" />
+      </webServer>
+      <webServer id="01640cca-c492-47e1-9cdc-8ebdaae882f0" name="WebBrowser2" url="http://localhost:63342/unico-main">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>
