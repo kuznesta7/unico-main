@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="8888d765-6c77-4144-8a5e-5d49a13fcf7a" name="Forpsi" url="http://ftpx.forpsi.com">
-        <fileTransfer host="ftpx.forpsi.com" port="21" rootFolder="/www/oxygen">
+        <fileTransfer host="ftpx.forpsi.com" port="21" rootFolder="/www/oxygen2">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
