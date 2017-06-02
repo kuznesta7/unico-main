@@ -19,7 +19,7 @@ a:hover, a:focus {
 }
 
 .main-nav, 
-.service-icon, 
+/*.service-icon,*/
 .progress-bar.progress-bar-primary, 
 .single-table.featured, 
 .btn.btn-primary, 
@@ -28,13 +28,14 @@ a:hover, a:focus {
 .post-icon, 
 .entry-header .date:after, 
 .btn-loadmore:hover, 
-.btn-submit,
+/*.btn-submit,*/
 #footer, 
 .caption .btn-start:hover, 
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-  background-color:#028fcc;
+/*  background-color:#028fcc;*/
+	background-image: linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 }
 
 .twitter-left-control:hover, 
