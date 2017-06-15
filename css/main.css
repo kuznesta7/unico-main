@@ -99,7 +99,7 @@ section {
 }
 
 .heading {
-  padding-bottom:90px;
+  /*padding-bottom:90px;*/
 }
 
 .preloader {
@@ -168,6 +168,7 @@ section {
 
 #logo-main{
   margin: auto;
+  padding-bottom: 40px;
 }
 
 .caption .btn-start {
@@ -215,6 +216,7 @@ section {
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
+  /*background-color: #2e6da4;*/
 }
 .carousel-fade .carousel-control {
   z-index: 2;
@@ -271,8 +273,8 @@ section {
   font-size: 24px;
   line-height: 24px;
   z-index: 999;
-  -webkit-animation: bounce 3000ms infinite;
-  animation: bounce 3000ms infinite;
+  -webkit-animation: bounce 0ms infinite;
+  animation: bounce 0ms infinite;
 }
 
 .navbar-right li a {
@@ -298,12 +300,17 @@ section {
 ********Service CSS*******
 **************************/
 
-
+#services{
+  padding-top: 0px;
+  padding-bottom: 150px;
+  margin-top: 60px;
+}
 
 .service-icon {
   border-radius: 4px;
   color: #fff;
-  background-color: #028fcc;
+  /*background-color: #028fcc;*/
+  background-image: linear-gradient(46deg, #333399, #669999 50%, #66CCFF);
   display: inline-block;
   font-size: 36px;
   height: 90px;
@@ -316,13 +323,18 @@ section {
 .service-icon:nth-child(4){
   padding: 50px;
 }
+
+#p-our-serv{
+  margin: 40px 10px;
+}
+
 .our-services .col-sm-4:hover .service-icon {
   background-color: #333;
 }
 
 .our-services .col-sm-4 {
   border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
+  /*border-bottom:1px solid #f2f2f2;*/
   padding-bottom: 50px;
   height: 320px;
 }
@@ -366,10 +378,35 @@ section {
 /*************************
 ********About CSS*******
 **************************/
+#about-us-img{
+  /*background-image: url(../images/test/test_2.png);*/
+  overflow: hidden;
+  height: auto;
+}
+
+#about-us-row{
+  height: 400px;
+}
+
+#about-us-text{
+  margin-top: 30px;
+}
+
+#about-us-cont{
+  margin: 0px;
+  padding-right: 0px;
+}
+
 #about-us {
-  background-image: url(../images/test/polly-background.jpg);
+  /*background-image: url(../images/test/test_2.png);*/
+  background-image: linear-gradient(46deg, #333399, #669999 50%, #66CCFF);
+  /*background-image: url(../images/test/pozadi.jpg);*/
   /*background-image: linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
-  padding: 60px 0;
+  /*height: 400px;*/
+  /*padding: 30px 0;*/
+  padding-top: 0px;
+  padding-bottom: 0px;
+
   color: #ffffff;
 }
 
@@ -542,8 +579,14 @@ section {
 /*************************
 *********Team CSS*********
 **************************/
+#team_mem{
+  position: relative;
+  left: 25%;
+}
+
 #team {
-  padding-top: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .team-members {
@@ -958,7 +1001,8 @@ ul.address {
   padding: 12px;
   width: 100%;
   color: #fff;
-  background-color: #028fcc;
+  /*background-color: #028fcc;*/
+  background-image: linear-gradient(46deg, #333399, #669999 50%, #66CCFF);
   border:0;
   margin-top: 40px;
 }
