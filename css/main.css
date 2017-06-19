@@ -393,8 +393,8 @@ section {
 }
 
 #about-us-cont{
-  margin: 0px;
-  padding-right: 0px;
+  /*margin: 0px;*/
+  /*padding-right: 0px;*/
 }
 
 #about-us {
@@ -587,6 +587,7 @@ section {
 #team {
   padding-top: 0px;
   padding-bottom: 0px;
+  overflow: hidden;
 }
 
 .team-members {
