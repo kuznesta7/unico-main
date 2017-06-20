@@ -166,6 +166,25 @@ section {
   margin-bottom: 30px;
 }
 
+.carousel.carousel-fade .carousel-inner .item {
+  width: 100%;
+  display: block !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 1.6s, opacity 1.6s;
+  transition: visibility 1.6s ,opacity 1.6s;
+  transform: none !important;
+}
+
+.carousel.carousel-fade .carousel-inner .item.active {
+  position: static;
+  visibility: visible;
+  opacity: 1;
+}
+
 #logo-main{
   margin: auto;
   padding-bottom: 40px;
